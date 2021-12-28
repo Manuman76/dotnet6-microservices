@@ -22,7 +22,7 @@ public class ProductService: BaseService, IProductService
         });
     }
 
-    public async Task<T> GetProductsByIdAsync<T>(int id)
+    public async Task<T> GetProductByIdAsync<T>(int id)
     {
         return await this.SendAsync<T>(new ApiRequest()
         {
@@ -32,7 +32,7 @@ public class ProductService: BaseService, IProductService
         });
     }
 
-    public async Task<T> CreateProductsAsync<T>(ProductDto productDto)
+    public async Task<T> CreateProductAsync<T>(ProductDto productDto)
     {
         return await this.SendAsync<T>(new ApiRequest()
         {
@@ -43,7 +43,7 @@ public class ProductService: BaseService, IProductService
         });
     }
 
-    public async Task<T> UpdateProductsAsync<T>(ProductDto productDto)
+    public async Task<T> UpdateProductAsync<T>(ProductDto productDto)
     {
         return await this.SendAsync<T>(new ApiRequest()
         {
@@ -54,7 +54,7 @@ public class ProductService: BaseService, IProductService
         });
     }
 
-    public async Task<T> DeleteProductsAsync<T>(int id)
+    public async Task<T> DeleteProductAsync<T>(int id)
     {
         return await this.SendAsync<T>(new ApiRequest()
         {

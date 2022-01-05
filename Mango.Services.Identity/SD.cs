@@ -19,7 +19,7 @@ public static class SD
     public static IEnumerable<ApiScope> ApiScopes =>
         new List<ApiScope>
         {
-            new ApiScope("Mango", "MangoServer"),
+            new ApiScope("mango", "MangoServer"),
             new ApiScope("read", "Read data."),
             new ApiScope("write", "Write data."),
             new ApiScope("delete", "Delete data.")
@@ -40,8 +40,8 @@ public static class SD
                 ClientId = "mango",
                 ClientSecrets = { new Secret("secret".Sha256()) },
                 AllowedGrantTypes = GrantTypes.Code,
-                RedirectUris = { "http://localhost:21273/signin-oidc" },
-                PostLogoutRedirectUris = { "http://localhost:21273/signout-callback-oidc" },
+                RedirectUris = { "https://localhost:7127/signin-oidc" },
+                PostLogoutRedirectUris = { "https://localhost:7127/signout-callback-oidc" },
                 AllowedScopes = new List<string>
                 {
                     IdentityServerConstants.StandardScopes.OpenId,

@@ -1,0 +1,1 @@
+/home/manuel/sources/MangoRestaurant/.sonarqube/out/1

@@ -1,0 +1,27 @@
+Product projects
+---------------------------------------
+/home/manuel/sources/MangoRestaurant/Mango.Web/Mango.Web.csproj
+/home/manuel/sources/MangoRestaurant/Mango.Services.ShoppingCartAPI/Mango.Services.ShoppingCartAPI.csproj
+/home/manuel/sources/MangoRestaurant/Mango.Services.Identity/Mango.Services.Identity.csproj
+/home/manuel/sources/MangoRestaurant/Mango.Services.ProductAPI/Mango.Services.ProductAPI.csproj
+
+
+Test projects
+---------------------------------------
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

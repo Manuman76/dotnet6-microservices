@@ -18,4 +18,8 @@
       <None Include="wwwroot\images\order.PNG" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Pages" />
+    </ItemGroup>
+
 </Project>
